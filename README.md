@@ -11,7 +11,10 @@ It uses a fernet to encrypt and decrypt the data by taking the tokens and conver
 
 Images
 
-home page
+Home page
+
 ![Home Page Image](https://github.com/PythonicNoob/EncryptorDecryptor/blob/master/Images/Image.jpeg)
+
 Data page
+
 ![Data Page Image](https://github.com/PythonicNoob/EncryptorDecryptor/blob/master/Images/Image2.jpeg)
