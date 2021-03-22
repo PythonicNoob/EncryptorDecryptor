@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V4</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{% static '/index/images/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/bootstrap/css/bootstrap.min.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/fonts/font-awesome-4.7.0/css/font-awesome.min.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/animate/animate.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/css-hamburgers/hamburgers.min.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/animsition/css/animsition.min.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/select2/select2.min.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/vendor/daterangepicker/daterangepicker.css ' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static '/index/css/util.css ' %}">
+	<link rel="stylesheet" type="text/css" href="{% static '/index/css/main.css ' %}">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+
+				<span class="contact100-form-title">
+					{{ title }}
+				</span>
+
+
+            <div style="word-wrap: break-word;">
+            {{  data }}
+    </div>
+        </div>
+
+
+</body>
+</html>
